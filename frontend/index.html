@@ -10,6 +10,10 @@
     <title>ビジネスエアポート混雑状況チェッカー</title>
   </head>
   <body>
+    <div class="title-wrapper">
+      <img src="favicon.ico" />
+      <span class="title">ビジネスエアポート混雑状況チェッカー</span>
+    </div>
     <table>
       <thead>
         <tr>
@@ -40,8 +44,12 @@
                 {{alias}}
               </a>
             </td>
-            <td class="congestion congestion-{{individualSpace}}"></td>
-            <td class="congestion congestion-{{meetingSpace}}"></td>
+            <td class="congestion">
+              <div class="congestion-circle congestion-{{individualSpace}}"></div>
+            </td>
+            <td class="congestion">
+              <div class="congestion-circle congestion-{{individualSpace}}"></div>
+            </td>
             <td>{{updatedAt}}</td>
             <td>{{smokingkArea}}</td>
           </tr>
