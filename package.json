@@ -1,0 +1,20 @@
+{
+  "name": "business-airport-congestion-checker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "babel-node ./backend/app.js",
+    "dev": "nodemon --watch backend --exec babel-node ./backend/app.js",
+    "dummy": "mode=dummy yarn dev"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdom": "^16.6.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.12"
+  }
+}

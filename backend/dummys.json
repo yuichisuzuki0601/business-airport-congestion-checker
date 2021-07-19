@@ -1,0 +1,114 @@
+[
+  {
+    "name": "ビジネスエアポート青山",
+    "open": true,
+    "meetingSpace": "middle",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:29"
+  },
+  {
+    "name": "ビジネスエアポート恵比寿",
+    "open": true,
+    "meetingSpace": "middle",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:17"
+  },
+  {
+    "name": "ビジネスエアポート神田",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:00"
+  },
+  {
+    "name": "ビジネスエアポート品川",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:14"
+  },
+  {
+    "name": "ビジネスエアポート渋谷南平台",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:23"
+  },
+  {
+    "name": "ビジネスエアポート渋谷フクラス",
+    "open": true,
+    "meetingSpace": "high",
+    "individualSpace": "middle",
+    "updatedAt": "2021/07/20 18:15"
+  },
+  {
+    "name": "ビジネスエアポート新宿三丁目",
+    "open": true,
+    "meetingSpace": "middle",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:23"
+  },
+  {
+    "name": "ビジネスエアポート新橋",
+    "open": true,
+    "meetingSpace": "high",
+    "individualSpace": "middle",
+    "updatedAt": "2021/07/20 19:02"
+  },
+  {
+    "name": "ビジネスエアポート竹芝",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 18:54"
+  },
+  {
+    "name": "ビジネスエアポート田町",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:37"
+  },
+  {
+    "name": "ビジネスエアポート東京",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "high",
+    "updatedAt": "2021/07/20 19:40"
+  },
+  {
+    "name": "ビジネスエアポート日本橋",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:11"
+  },
+  {
+    "name": "ビジネスエアポート日比谷",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/19 18:14"
+  },
+  {
+    "name": "ビジネスエアポート丸の内",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "middle",
+    "updatedAt": "2021/07/20 18:45"
+  },
+  {
+    "name": "ビジネスエアポート目黒",
+    "open": true,
+    "meetingSpace": "middle",
+    "individualSpace": "middle",
+    "updatedAt": "2021/07/20 18:37"
+  },
+  {
+    "name": "ビジネスエアポート六本木",
+    "open": true,
+    "meetingSpace": "low",
+    "individualSpace": "low",
+    "updatedAt": "2021/07/20 19:19"
+  }
+]

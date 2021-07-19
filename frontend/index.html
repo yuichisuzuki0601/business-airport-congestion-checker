@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="混雑状況" />
+    <link rel="apple-touch-icon" href="appicon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>ビジネスエアポート混雑状況チェッカー</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            <i class="fas fa-map-marked" title="場所"></i>
+          </th>
+          <th>
+            <i class="fas fa-user" title="1人席"></i>
+          </th>
+          <th>
+            <i class="fas fa-users" title="打合席"></i>
+          </th>
+          <th>
+            <i class="fas fa-history" title="更新時刻"></i>
+          </th>
+          <th>
+            <i class="fas fa-smoking" title="喫煙所"></i>
+          </th>
+        </tr>
+      </thead>
+      <tbody id="rows">
+        <script type="template" id="template-row">
+          <tr>
+            <td>{{no}}</td>
+            <td>
+              <a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{name}}">
+                {{alias}}
+              </a>
+            </td>
+            <td class="congestion congestion-{{individualSpace}}"></td>
+            <td class="congestion congestion-{{meetingSpace}}"></td>
+            <td>{{updatedAt}}</td>
+            <td>{{smokingkArea}}</td>
+          </tr>
+        </script>
+      </tbody>
+    </table>
+    <div class="button-wrapper">
+      <button id="reload">
+        <i class="fas fa-redo"></i>
+        <span>再読み込み</span>
+      </button>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script>
+  <script src="index.js"></script>
+</html>
