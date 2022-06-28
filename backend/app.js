@@ -56,5 +56,8 @@ app.get("/api/statuses", async (_, res) => {
         });
   const merged = results.map((result) => ({ ...result, ...places[result.name] }));
   const sorted = merged.sort((l, r) => l.order - r.order);
+  sorted.push({
+    alias: 'うんこ'
+  })
   res.status(200).json(sorted);
 });
