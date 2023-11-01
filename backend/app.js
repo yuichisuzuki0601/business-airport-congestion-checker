@@ -34,8 +34,11 @@ app.get("/api/statuses", async (_, res) => {
       ? dummys
       : Array.from(document.querySelectorAll(".swiper-slide > dl")).map((info) => {
           const result = {};
-          result.name = info.querySelector("dt > a").textContent;
-          result.open = info.querySelector("dd > span").textContent === "営業中";
+          
+          const nameNode = info.querySelector("dt > a") || info.querySelector("dt");
+          result.name = nameNode?.textContent?.trim();
+
+          result.open = info.querySelector("dd > span").textContent === "受付時間内";
           Array.from(info.querySelectorAll("dd > div")).forEach((status) => {
             const span = status.querySelector("span");
             if (span) {
